@@ -1,0 +1,9 @@
+@mixin ellipsis {
+    // 三者组合
+    //隐藏溢出部分 https://developer.mozilla.org/zh-CN/docs/Web/CSS/overflow
+    overflow: hidden;
+    //连续的空白被合并，并且换行失效https://developer.mozilla.org/zh-CN/docs/Web/CSS/white-space
+    white-space: nowrap;
+    //
+    text-overflow: ellipsis;
+}

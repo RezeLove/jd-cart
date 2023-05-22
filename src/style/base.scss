@@ -1,0 +1,11 @@
+// scss文件
+// 这里为html设置字体，是因为后续要以rem为单位，rem是根元素字体的单位，比如 html{font-size:16px;} ，1rem相当于16px, 在此处1rem = 100px
+// 不仅仅可以给字体用，其他px单位的都可以用 
+html {
+    font-size: 100px;
+}
+
+// 
+body {
+    font-size: .10rem;
+}
